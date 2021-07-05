@@ -49,7 +49,7 @@ print(  )
 
 print("Age in months = " , months, "months" ,"+" ,date_1 , "days")
 print( )
-print("Age in days = " , int(days), "days . ")
+
 
 
 
