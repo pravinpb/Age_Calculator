@@ -41,12 +41,15 @@ print(   )
 print( "Age in years  = ", age_1,"Years,", month_2,"months," , date_1 , "days .")
 
 months = (12 * int(age_1)) + month_2
-days = (365 * int(age_1)) + (30 * int(month_2)) + date_1
+days = (30.435 * int(months)) +  + date_1
+days = round(days , 0)
 
 print(  )
 print(  )
 
 print("Age in months = " , months, "months" ,"+" ,date_1 , "days")
+print( )
+
 
 
 
