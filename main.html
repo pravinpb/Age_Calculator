@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Ager</title>
+</head>
+<body>
+    <div class="title_main">
+        <p>Enter your Birth Details</p>
+    </div>
+    
+    <div class="input_section">
+        <div class="block">
+            <p class="title">Date</p>
+            <input class="input_blocks" type="text" name="date" id="date" placeholder="Date" required="required" minlength="1" maxlength="2" />
+          </div>
+          <div class="block">
+            <p class="title">Month</p>
+            <input class="input_blocks" type="text" name="month" id="month" placeholder="Month" required="required" minlength="1" maxlength="2" />
+          </div>
+          <div class="block">
+            <p class="title">Year</p>
+            <input class="input_blocks" type="text" name="year" id="year" placeholder="Year" required="required" minlength="4" maxlength="4" />
+          </div>
+    </div>
+
+    <div class="submit_section">
+        <div class="base">
+            <input class="submit_button" type="button" name="submit" value="Submit" onclick="age()">
+        </div>
+    </div>
+
+    <div id="age"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>
